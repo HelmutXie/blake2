@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T14:25:28.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IDhhZ4d-R1PoOElFpWVa" version="21.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-07-05T14:26:41.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6uRSoXC_v_VCDSSZ_-Yw" version="21.5.2" type="github" pages="6">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2055,7 +2055,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e1WZqOSTQHj7ZiCzI8O8" name="CMD Buffer">
-    <mxGraphModel dx="1728" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2322,6 +2322,21 @@
         </mxCell>
         <mxCell id="JpVjJtpy54hlr4_RG6xf-89" value="127" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="90" y="436" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vVv2pRA-3JUQ6hqfM-sn-1" value="entry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="38" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vVv2pRA-3JUQ6hqfM-sn-2" value="word0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vVv2pRA-3JUQ6hqfM-sn-3" value="word1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vVv2pRA-3JUQ6hqfM-sn-4" value="word2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vVv2pRA-3JUQ6hqfM-sn-5" value="word3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="39" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
