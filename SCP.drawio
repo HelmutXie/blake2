@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T14:59:24.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YF3P1TtlOa5bzxsatpP9" version="21.5.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-05T15:04:50.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pWsM-zXrCWjknKHZKiT0" version="21.5.2" type="github" pages="8">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4089,7 +4089,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EYGwztwO1asR5CCU6EQr" name="Process ctrl">
-    <mxGraphModel dx="-339" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="559" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4178,6 +4178,17 @@
           <mxGeometry x="0.0763" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BzG1OeyN_Xb39E6xIpQX" name="Error type">
+    <mxGraphModel dx="1185" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G4ZTtDR8iB1v4A277T4p-1" value="定义的错误类型：&lt;br&gt;&lt;ul&gt;&lt;li&gt;CMD decode error (奇偶校验错误)&lt;/li&gt;&lt;li&gt;CMD fetch bus error&lt;/li&gt;&lt;li&gt;AXI master write error&lt;/li&gt;&lt;li&gt;NN-Mem error&lt;/li&gt;&lt;li&gt;DMA error&lt;/li&gt;&lt;li&gt;MM/VS Error(tbd.)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="23" width="250" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
