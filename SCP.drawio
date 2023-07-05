@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T16:03:03.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1cB7xpbz7CV-VPk9WXQo" version="21.5.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-05T16:03:13.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sXb6DEURkQcqWuP4cMOg" version="21.5.2" type="github" pages="8">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4119,7 +4119,7 @@
         <mxCell id="vnsCp8OKF-kvD5DPAAYC-5" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;SLIP_TO_PAUSED&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1482.9160305343512" y="297.51724137931035" width="116.6412213740458" height="56.896551724137936" as="geometry" />
         </mxCell>
-        <mxCell id="vnsCp8OKF-kvD5DPAAYC-8" value="HALT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vnsCp8OKF-kvD5DPAAYC-8" value="PAUSED" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1482.9160305343512" y="393.1034482758621" width="116.6412213740458" height="56.896551724137936" as="geometry" />
         </mxCell>
         <mxCell id="vnsCp8OKF-kvD5DPAAYC-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
