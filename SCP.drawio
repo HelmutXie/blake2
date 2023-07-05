@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T15:04:50.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pWsM-zXrCWjknKHZKiT0" version="21.5.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-05T15:14:19.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="oOapqjbKaPrNr3t5kcd6" version="21.5.2" type="github" pages="8">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2060,6 +2060,9 @@
             <mxPoint x="480.5" y="446" as="sourcePoint" />
             <mxPoint x="320.5" y="446" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aZWPNqkjtDUJMhNPkNXI-1" value="&lt;ul style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;当前SCP给每个Engine分发CMD只支持Outstanding为1&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="500" width="350" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -4188,7 +4191,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="G4ZTtDR8iB1v4A277T4p-1" value="定义的错误类型：&lt;br&gt;&lt;ul&gt;&lt;li&gt;CMD decode error (奇偶校验错误)&lt;/li&gt;&lt;li&gt;CMD fetch bus error&lt;/li&gt;&lt;li&gt;AXI master write error&lt;/li&gt;&lt;li&gt;NN-Mem error&lt;/li&gt;&lt;li&gt;DMA error&lt;/li&gt;&lt;li&gt;MM/VS Error(tbd.)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="23" width="250" height="140" as="geometry" />
+          <mxGeometry x="60" y="70" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IcvJOIUqcxk5oUnaGVbV-1" value="支持4个写Message通道：&lt;br&gt;&lt;ul&gt;&lt;li&gt;通道0固定用于写完成消息&lt;/li&gt;&lt;li&gt;通道1固定用于发送DSP类CMD&lt;/li&gt;&lt;li&gt;通道2和3给SCP Message CMD使用&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;当前SCP给每个通道分发CMD只支持Outstanding为1&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="265" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IcvJOIUqcxk5oUnaGVbV-2" value="DMA支持8个逻辑通道：&lt;br&gt;&lt;ul&gt;&lt;li&gt;通道的映射由编译器分配，通道信息包含在DMA CMD中&lt;br&gt;&lt;/li&gt;&lt;li&gt;每个通道返回给SCP两根线：完成信号ch_evt和错误信号ch_err&lt;/li&gt;&lt;li&gt;当前SCP给每个通道分发CMD只支持Outstanding为1&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="400" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
