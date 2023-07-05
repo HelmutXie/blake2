@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T15:18:19.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xMp7_9_LnN0L6CB2MKgu" version="21.5.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-05T15:20:01.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8wL1Sgq0whEQlMkhwNc_" version="21.5.2" type="github" pages="8">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4186,7 +4186,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BzG1OeyN_Xb39E6xIpQX" name="Error type">
-    <mxGraphModel dx="1185" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4196,8 +4196,8 @@
         <mxCell id="IcvJOIUqcxk5oUnaGVbV-1" value="支持4个写Message通道：&lt;br&gt;&lt;ul&gt;&lt;li&gt;通道0固定用于写完成消息&lt;/li&gt;&lt;li&gt;通道1固定用于发送DSP类CMD&lt;/li&gt;&lt;li&gt;通道2和3给SCP Message CMD使用&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;当前SCP给每个通道分发CMD只支持Outstanding为1&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="265" width="340" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="IcvJOIUqcxk5oUnaGVbV-2" value="DMA支持8个逻辑通道：&lt;br&gt;&lt;ul&gt;&lt;li&gt;通道的映射由编译器分配，通道信息包含在DMA CMD中&lt;br&gt;&lt;/li&gt;&lt;li&gt;每个通道返回给SCP两根线：完成信号ch_evt和错误信号ch_err&lt;/li&gt;&lt;li&gt;当前SCP给每个通道分发CMD只支持Outstanding为1&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="410" width="400" height="100" as="geometry" />
+        <mxCell id="IcvJOIUqcxk5oUnaGVbV-2" value="支持8个DMA逻辑通道：&lt;br&gt;&lt;ul&gt;&lt;li&gt;通道的映射由编译器分配，通道信息包含在DMA CMD中&lt;br&gt;&lt;/li&gt;&lt;li&gt;每个通道返回给SCP两根线：完成信号线ch_evt和错误信号线ch_err&lt;/li&gt;&lt;li&gt;当前SCP给每个通道分发CMD只支持Outstanding为1&lt;/li&gt;&lt;li&gt;DMA物理通道对SCP不可见&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="405" width="420" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Ji3DjDBALeor5kWHu021-1" value="DMA支持8个逻辑通道：&lt;br&gt;&lt;ul&gt;&lt;li&gt;通道的映射由编译器分配，通道信息包含在DMA CMD中&lt;br&gt;&lt;/li&gt;&lt;li&gt;每个通道返回给SCP两根线：完成信号ch_evt和错误信号ch_err&lt;/li&gt;&lt;li&gt;当前SCP给每个通道分发CMD只支持Outstanding为1&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="530" width="400" height="100" as="geometry" />
