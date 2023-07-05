@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T16:03:13.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sXb6DEURkQcqWuP4cMOg" version="21.5.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-05T16:08:13.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LLqnaEDr-ZicBqNEER8N" version="21.5.2" type="github" pages="9">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -260,6 +260,17 @@
         </mxCell>
         <mxCell id="MJw6fTl2OdGi7Ld2pjlI-9" value="SCP" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="60" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FHbWmwZNTdQO8SKVeiR7" name="CMD手册">
+    <mxGraphModel dx="2354" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cEXnYsUhENp0Hr2-mk5--1" value="&lt;ul&gt;&lt;li&gt;Netbin&lt;br&gt;编译器输出的可执行文件&lt;/li&gt;&lt;li&gt;BIN_CMD&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="23" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -4215,7 +4226,7 @@
           <mxGeometry x="70" y="860" width="670" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rcm9UFy4kvG1WXjLN3ex-2" value="Debug：&lt;br&gt;&lt;ul&gt;&lt;li&gt;halt&lt;/li&gt;&lt;li&gt;resume&lt;/li&gt;&lt;li&gt;single step(没用，被否掉)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1020" width="200" height="100" as="geometry" />
+          <mxGeometry x="70" y="990" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
