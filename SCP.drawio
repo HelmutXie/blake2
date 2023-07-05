@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T16:22:56.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5Jf6VAtBGqmWnNvErOlz" version="21.5.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-07-05T16:24:28.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jg_E63seG3_ar0hngpQR" version="21.5.2" type="github" pages="9">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -298,6 +298,9 @@
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--11" value="WEIGHT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="640" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cEXnYsUhENp0Hr2-mk5--12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;相关寄存器：&lt;br&gt;BIN_CMD_BASEADDR_REG&lt;br&gt;BIN_CMD_LENGTH_REG&lt;br&gt;WEIGHT_BASE_ADDR&lt;br&gt;DATA_IN_BASE_ADDR&lt;br&gt;DATA_OUT_BASE_ADDR&lt;br&gt;DATA_WORK_BASE_ADDR&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="285" width="420" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
