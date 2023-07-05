@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T15:53:41.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5sHWBTFLkF1Y9tRkkltR" version="21.5.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-07-05T16:00:55.467Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="soj39LYZM8oPxBbioqaS" version="21.5.2" type="github" pages="8">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4211,8 +4211,8 @@
         <mxCell id="lUnVy4eMVLdeRxVW_sAl-2" value="Watchdog：&lt;br&gt;&lt;ul&gt;&lt;li&gt;内部实现一个watchdog，NPU使能后可以选择设定timeout值和开启watchdog&lt;/li&gt;&lt;li&gt;Watchdog使用主时钟的16分频时钟&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="780" width="470" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rcm9UFy4kvG1WXjLN3ex-1" value="Perf_cnt：&lt;br&gt;&lt;ul&gt;&lt;li&gt;支持Profiling模式，profiling模式下SCP会统计profiling info并通过AXI Master口写到外部DDR或SLB&lt;/li&gt;&lt;li&gt;Profiling info是每个CMD开始执行和exeute done的时间戳信息，具体格式为：&lt;br&gt;{CMD ID, Execute_start_time_stamp[31:0], Execute_done_time_stamp[31:0], }&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="870" width="590" height="100" as="geometry" />
+        <mxCell id="rcm9UFy4kvG1WXjLN3ex-1" value="Perf_cnt：&lt;br&gt;&lt;ul&gt;&lt;li&gt;支持retire_cmd_num寄存器和Scoreboard_entry状态信息&lt;/li&gt;&lt;li&gt;支持Profiling模式，profiling模式下SCP会统计profiling info并通过AXI Master口写到外部DDR或SLB&lt;/li&gt;&lt;li&gt;Profiling info是每个CMD开始执行和exeute done的时间戳信息，具体格式为：&lt;br&gt;{Retire_cmd_num_div16[27:0], CMD_ID[3:0], Execute_start_time_stamp[31:0], Execute_done_time_stamp[31:0] }&lt;br&gt;（通过Retire_cmd_num_div16[27:0], CMD_ID[3:0]可以定位到CMD具体位置）&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="860" width="670" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
