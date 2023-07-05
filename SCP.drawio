@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T10:12:27.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Pss9wnzaxQTHpy12G0Yg" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T10:14:31.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="c2sleOEXE906HQg_66Ks" version="21.5.2" type="github">
   <diagram name="第 1 页" id="LpcylKUexM6prcseToAj">
-    <mxGraphModel dx="1728" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,6 +83,11 @@
         <mxCell id="ImF7eDTHu0jVzkc-1LmT-11" value="Axi_master&lt;br&gt;_wr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="390" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ImF7eDTHu0jVzkc-1LmT-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ImF7eDTHu0jVzkc-1LmT-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ImF7eDTHu0jVzkc-1LmT-12" value="CMD Mem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="280" width="70" height="40" as="geometry" />
         </mxCell>
@@ -130,6 +135,9 @@
         </mxCell>
         <mxCell id="ImF7eDTHu0jVzkc-1LmT-44" value="Misc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="671" y="634" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ImF7eDTHu0jVzkc-1LmT-49" value="MM类CMD&lt;br&gt;VS类CMD&lt;br&gt;DMA类CMD&lt;br&gt;DSP类CMD&lt;br&gt;SCP类CMD" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="528" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
