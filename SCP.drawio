@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T03:30:45.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6y9t3nmuLoCyqvSsThjY" version="21.5.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-06T03:43:03.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PB_f7SSQUr5RyXJ3xVqK" version="21.5.2" type="github" pages="10">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
     <mxGraphModel dx="1728" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4293,7 +4293,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BzG1OeyN_Xb39E6xIpQX" name="Error type">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4321,17 +4321,20 @@
         <mxCell id="rcm9UFy4kvG1WXjLN3ex-2" value="Debug：&lt;br&gt;&lt;ul&gt;&lt;li&gt;halt&lt;/li&gt;&lt;li&gt;resume&lt;/li&gt;&lt;li&gt;single step(没用，被否掉)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="990" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vlXDuGUh6mz98ZFs9KGx-1" value="待优化的点：&lt;br&gt;&lt;ul&gt;&lt;li&gt;Split：SCP对CMD进行拆分，比如一条Layer CMD拆分成若干条Cycle CMD&lt;/li&gt;&lt;li&gt;CMD_BUS目前只支持Outstanding为1，可升级&lt;/li&gt;&lt;li&gt;每个DMA逻辑通道目前只支持Outstanding为1，可升级&lt;/li&gt;&lt;li&gt;每个写Message通道目前只支持Outstanding为1，可升级&lt;/li&gt;&lt;li&gt;可以增加对NN-Mem的管理，比如将NN-Mem划分成32个逻辑片区，标记为index0-31，&lt;br&gt;可以显示的allocate和release&lt;/li&gt;&lt;li&gt;对于DMA logic channel/Message logic channel, 目前都是编译器静态调度，可以改为&lt;br&gt;SCP动态调度或编译器和SCP结合的半动态调度&lt;/li&gt;&lt;li&gt;同样的，对于MM/VS计算资源，目前也都是编译器静态调度，可以改为&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;SCP动态调度或编译器和SCP结合的半动态调度&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1090" width="530" height="200" as="geometry" />
+        <mxCell id="vlXDuGUh6mz98ZFs9KGx-1" value="待优化的点：&lt;br&gt;&lt;ul&gt;&lt;li&gt;Split：SCP对CMD进行拆分，比如一条Layer CMD拆分成若干条Cycle CMD&lt;/li&gt;&lt;li&gt;CMD_BUS目前只支持Outstanding为1，可升级&lt;/li&gt;&lt;li&gt;每个DMA逻辑通道目前只支持Outstanding为1，可升级&lt;/li&gt;&lt;li&gt;每个写Message通道目前只支持Outstanding为1，可升级&lt;/li&gt;&lt;li&gt;可以增加对NN-Mem的管理，比如将NN-Mem划分成32个逻辑片区，标记为index0-31，&lt;br&gt;可以显示的allocate和release&lt;/li&gt;&lt;li&gt;对于DMA logic channel/Message logic channel, 目前都是编译器静态调度，可以改为&lt;br&gt;SCP动态调度或编译器和SCP结合的半动态调度&lt;/li&gt;&lt;li&gt;同样的，对于MM/VS计算资源，目前也都是编译器静态调度，可以改为&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;SCP动态调度或编译器和SCP结合的半动态调度&lt;/li&gt;&lt;li&gt;对于DMA LOAD - MM/VS - DMA STORE这样的pattern十分常见，可以做成大的3级流水，&lt;br&gt;SCP控制流水线&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1080" width="540" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="t_B8gqaB8MsPs9sx5GN5" name="Hazard">
-    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="-292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cs27J8OBkgeO8jfd6Q0x-1" value="Hazard：&lt;br&gt;&lt;ul&gt;&lt;li&gt;Structure hazard&lt;/li&gt;&lt;ul&gt;&lt;li&gt;相同的engine之间存在资源冲突，同理相同DMA 逻辑通道、Message通道之间&lt;br&gt;都存在资源冲突，如果前后CMD属于同一种资源，后一条需要等到前一条完成&lt;br&gt;才可以发射&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Structure hazard需要SCP检测，编译器不显示告诉SCP依赖信息&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Data hazard&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;CMD HEAD中的depend id字段来显示表征依赖信息&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Control hazard&lt;/li&gt;&lt;ul&gt;&lt;li&gt;SCP SYNC CMD，fence bitmap / fence all&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1100" width="520" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
