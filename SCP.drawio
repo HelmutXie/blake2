@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T06:04:35.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pDol-NIGhbA_tcKs0_lB" version="21.6.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-07T06:34:07.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="q20Pamam03vxA6Tms2y7" version="21.6.1" type="github" pages="10">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
-    <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,105 +273,105 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FHbWmwZNTdQO8SKVeiR7" name="CMD手册">
-    <mxGraphModel dx="3243" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4521" dy="2837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cEXnYsUhENp0Hr2-mk5--1" value="&lt;ul&gt;&lt;li&gt;Netbin文件&lt;br&gt;编译器输出的可执行文件,包括BIN_CMD，Weight，Data，以及各自的基地址。&lt;br&gt;Netbin文件可能位于外部flash等存储区域，由MCU负责加载和解析，放入DDR。&lt;br&gt;MCU将解析得到的BIN_CMD_BASEADDR、BIN_CMD_LENGTH、WEIGHT_BASE_ADDR告诉SCP，并使能SCP，启动一次Layer级别的任务。&lt;/li&gt;&lt;li&gt;BIN_CMD&lt;br&gt;BIN_CMD是所有的CMD组成的内容。&lt;/li&gt;&lt;li&gt;Weight&lt;/li&gt;&lt;li&gt;Data(?)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1090" y="-789" width="830" height="150" as="geometry" />
+          <mxGeometry x="-2310" y="-1654" width="830" height="150" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--3" value="BIN_CMD_BASE_ADDR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-607" width="160" height="50" as="geometry" />
+          <mxGeometry x="-2270" y="-1472" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--4" value="BIN_CMD_LENGTH" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-557" width="160" height="50" as="geometry" />
+          <mxGeometry x="-2270" y="-1422" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--5" value="WEIGHT_BASE_ADDR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-507" width="160" height="50" as="geometry" />
+          <mxGeometry x="-2270" y="-1372" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--6" value="WEIGHT_LENGTH" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-457" width="160" height="50" as="geometry" />
+          <mxGeometry x="-2270" y="-1322" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--7" value="DATA_IN_BASE_ADDR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-407" width="160" height="50" as="geometry" />
+          <mxGeometry x="-2270" y="-1272" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--8" value="DATA_OUT_BASE_ADDR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-357" width="160" height="50" as="geometry" />
+          <mxGeometry x="-2270" y="-1222" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--9" value="DATA_WORK_BASE_ADDR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-307" width="160" height="50" as="geometry" />
+          <mxGeometry x="-2270" y="-1172" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--10" value="BIN_CMD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-257" width="160" height="110" as="geometry" />
+          <mxGeometry x="-2270" y="-1122" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--11" value="WEIGHT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-147" width="160" height="110" as="geometry" />
+          <mxGeometry x="-2270" y="-1012" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;相关寄存器：&lt;br&gt;BIN_CMD_BASEADDR_REG&lt;br&gt;BIN_CMD_LENGTH_REG&lt;br&gt;WEIGHT_BASE_ADDR&lt;br&gt;DATA_IN_BASE_ADDR&lt;br&gt;DATA_OUT_BASE_ADDR&lt;br&gt;DATA_WORK_BASE_ADDR&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="-639" width="420" height="40" as="geometry" />
+          <mxGeometry x="-1890" y="-1504" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--13" value="CMD_HEAD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="-238" width="160" height="50" as="geometry" />
+          <mxGeometry x="-1890" y="-1103" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--14" value="CMD_PARAMETER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="-188" width="160" height="170" as="geometry" />
+          <mxGeometry x="-1890" y="-1053" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--16" value="32b" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-720" y="-220" width="40" height="30" as="geometry" />
+          <mxGeometry x="-1940" y="-1085" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--17" value="32*N b" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="-118" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1950" y="-983" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--18" value="CMD格式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-635" width="70" height="30" as="geometry" />
+          <mxGeometry x="-1855" y="-865" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--19" value="CMD_ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="-268" width="160" height="50" as="geometry" />
+          <mxGeometry x="-1580" y="-1133" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--20" value="CMD_TYPE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="-218" width="160" height="50" as="geometry" />
+          <mxGeometry x="-1580" y="-1083" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--21" value="CMD_LENGTH" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="-168" width="160" height="50" as="geometry" />
+          <mxGeometry x="-1580" y="-1033" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--22" value="CMD_SYNC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="-118" width="160" height="50" as="geometry" />
+          <mxGeometry x="-1580" y="-983" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--23" value="CMD_CHECK" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="-68" width="160" height="50" as="geometry" />
+          <mxGeometry x="-1580" y="-933" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--24" value="4b" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="-254" width="40" height="30" as="geometry" />
+          <mxGeometry x="-1620" y="-1119" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--25" value="1b" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="-58" width="40" height="30" as="geometry" />
+          <mxGeometry x="-1620" y="-923" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--26" value="CMD_HEAD格式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-340" width="110" height="30" as="geometry" />
+          <mxGeometry x="-1560" y="-865" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--27" value="?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-395" y="-200" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1615" y="-1065" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--28" value="depend_en&lt;br&gt;depend_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="-113" width="80" height="40" as="geometry" />
+          <mxGeometry x="-1410" y="-978" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--29" value="单位word，不包括CMD_HEAD, 从0计数" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="-227" width="240" height="30" as="geometry" />
+          <mxGeometry x="-1420" y="-1092" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--30" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;SCP类&lt;br style=&quot;font-size: 11px;&quot;&gt;MM类&lt;br style=&quot;font-size: 11px;&quot;&gt;VS类&lt;br style=&quot;font-size: 11px;&quot;&gt;DSP类&lt;br style=&quot;font-size: 11px;&quot;&gt;DMA类&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-185" y="-200" width="60" height="90" as="geometry" />
+          <mxGeometry x="-1405" y="-1065" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--31" value="0-15循环" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="-268" width="70" height="30" as="geometry" />
+          <mxGeometry x="-1410" y="-1133" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--32" value="奇校验" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="-58" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1410" y="-923" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--33" value="Netbin格式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1015" width="80" height="30" as="geometry" />
+          <mxGeometry x="-2235" y="-865" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cEXnYsUhENp0Hr2-mk5--34" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;SCP类CMD分为:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;SCP Message CMD&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;SCP fence CMD, 包含16bit的bitmap,又称为fence bitmap,&amp;nbsp;&lt;br&gt;bitmap为全1时表示fence all&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-380" y="80" width="370" height="110" as="geometry" />
+          <mxGeometry x="-1600" y="-785" width="370" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -784,7 +784,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_xuQbnexzC2L9I0E8cmg" name="Scoreboard entry old/vld">
-    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2963" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1971,7 +1971,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZSs52ppElJgoqcT8Zw4g" name="CMD BUS">
-    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4204,7 +4204,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EYGwztwO1asR5CCU6EQr" name="Process ctrl">
-    <mxGraphModel dx="16" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="905" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4319,7 +4319,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BzG1OeyN_Xb39E6xIpQX" name="Error type">
-    <mxGraphModel dx="1728" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3457" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4327,7 +4327,7 @@
           <mxGeometry x="60" y="35" width="250" height="210" as="geometry" />
         </mxCell>
         <mxCell id="IcvJOIUqcxk5oUnaGVbV-1" value="支持4个写Message通道：&lt;br&gt;&lt;ul&gt;&lt;li&gt;通道0固定用于写完成消息&lt;/li&gt;&lt;li&gt;通道1固定用于发送DSP类CMD&lt;/li&gt;&lt;li&gt;通道2和3给SCP Message CMD使用&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;当前SCP给每个通道分发CMD只支持Outstanding为1&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="70" y="265" width="340" height="110" as="geometry" />
+          <mxGeometry x="60" y="245" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IcvJOIUqcxk5oUnaGVbV-2" value="支持8个DMA逻辑通道：&lt;br&gt;&lt;ul&gt;&lt;li&gt;通道的映射由编译器分配，通道信息包含在DMA CMD中&lt;br&gt;&lt;/li&gt;&lt;li&gt;每个通道返回给SCP两根线：完成信号线ch_evt和错误信号线ch_err&lt;/li&gt;&lt;li&gt;当前SCP给每个通道分发CMD只支持Outstanding为1&lt;/li&gt;&lt;li&gt;DMA物理通道对SCP不可见&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;DMA的配置通过描述符的形式（BD，Buffer Descriptor）&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;DMA BD支持长BD和短BD&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;SCP将短BD写入DMA内部短BD接收寄存器&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;SCP将长BD写入一块特定的Mem空间，并配置DMA长BD地址寄存器通知DMA长BD的位置&lt;/li&gt;&lt;li&gt;DMA CMD和DMA BD的格式基本一样，但是有两点区别：&lt;/li&gt;&lt;ul&gt;&lt;li&gt;一是相对于DMA BD，DMA CMD多一个CMD HEAD&lt;/li&gt;&lt;li&gt;二是DMA CMD中使用的是相对地址（某些情况编译器不知道绝对地址，src addr和dst addr都有可能），&lt;br&gt;而DMA BD要求绝对地址。因此SCP需要将相对地址加上基地址得到绝对地址，&lt;br&gt;基地址来自于SCP寄存器&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="355" width="650" height="240" as="geometry" />
