@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T05:38:07.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nSz9Px1gS3xx23pQNQB5" version="21.6.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-07T05:39:16.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="O6WgNu_BXauOW9kEw-ng" version="21.6.1" type="github" pages="10">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
-    <mxGraphModel dx="1185" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4C61SQaBMYF7oyDK-hn8-38" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="50" width="570" height="310" as="geometry" />
+          <mxGeometry x="310" y="50" width="640" height="310" as="geometry" />
         </mxCell>
         <mxCell id="4C61SQaBMYF7oyDK-hn8-39" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="444" width="260" height="120" as="geometry" />
