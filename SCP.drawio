@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T05:35:33.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s3eCRh9H6vj705OpKF6r" version="21.6.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-07-07T05:37:11.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="m-JRp4FALgK_B5nY5PCY" version="21.6.1" type="github" pages="10">
   <diagram name="Block diagram" id="ij_g_ZbwmOxofca-6pQ5">
-    <mxGraphModel dx="1205" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,6 +106,14 @@
         </mxCell>
         <mxCell id="4C61SQaBMYF7oyDK-hn8-64" value="AI&lt;br&gt;Bus" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="160" width="40" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gtesmSQ0GkmrCEuO7La2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.015;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4C61SQaBMYF7oyDK-hn8-65" target="MJw6fTl2OdGi7Ld2pjlI-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="207" />
+              <mxPoint x="870" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4C61SQaBMYF7oyDK-hn8-65" value="CMD&lt;br&gt;Bus" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="160" width="30" height="110" as="geometry" />
@@ -244,7 +252,7 @@
             <mxPoint x="829" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MJw6fTl2OdGi7Ld2pjlI-2" value="Commit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MJw6fTl2OdGi7Ld2pjlI-2" value="Exe_done" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="788" y="80" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MJw6fTl2OdGi7Ld2pjlI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.41;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MJw6fTl2OdGi7Ld2pjlI-3" target="4C61SQaBMYF7oyDK-hn8-48" edge="1">
@@ -255,7 +263,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MJw6fTl2OdGi7Ld2pjlI-3" value="Exe_done" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MJw6fTl2OdGi7Ld2pjlI-3" value="Commit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="708" y="80" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MJw6fTl2OdGi7Ld2pjlI-9" value="SCP" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -265,7 +273,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FHbWmwZNTdQO8SKVeiR7" name="CMD手册">
-    <mxGraphModel dx="2374" dy="1571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3243" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -369,7 +377,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-i1RhM1FtzbR32ZhLcFb" name="CMD ID Mapping">
-    <mxGraphModel dx="1205" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -776,7 +784,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_xuQbnexzC2L9I0E8cmg" name="Scoreboard entry old/vld">
-    <mxGraphModel dx="1205" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1717,7 +1725,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5zUVMOocGbU6G6VfygAC" name="Scoreboard">
-    <mxGraphModel dx="1205" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1963,7 +1971,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZSs52ppElJgoqcT8Zw4g" name="CMD BUS">
-    <mxGraphModel dx="1205" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2172,7 +2180,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e1WZqOSTQHj7ZiCzI8O8" name="CMD Buffer">
-    <mxGraphModel dx="1205" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4346,7 +4354,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t_B8gqaB8MsPs9sx5GN5" name="Hazard">
-    <mxGraphModel dx="964" dy="-232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="72" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
