@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T14:16:13.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.7" etag="AmbtQAazCsfj6yxvsN-R" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T14:19:17.523Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="V_IAuX0lzer1xrc4gWhj" version="21.6.7" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1223" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,6 +36,30 @@
             <mxGeometry x="490" y="180" width="180" height="80" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="DSDsmIRUQHQQoRjeT_Fq-1" value="算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSDsmIRUQHQQoRjeT_Fq-2" value="架构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSDsmIRUQHQQoRjeT_Fq-3" value="建模" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="740" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSDsmIRUQHQQoRjeT_Fq-4" value="设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSDsmIRUQHQQoRjeT_Fq-5" value="验证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="900" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSDsmIRUQHQQoRjeT_Fq-6" value="FPGA/EMU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="980" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSDsmIRUQHQQoRjeT_Fq-7" value="后端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1060" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSDsmIRUQHQQoRjeT_Fq-8" value="Flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1140" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
